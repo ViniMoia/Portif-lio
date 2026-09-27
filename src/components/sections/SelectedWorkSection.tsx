@@ -566,7 +566,7 @@ export default function SelectedWorkSection() {
 
         {/* Case 4: E-Commerce */}
         <div className="work-wrapper" data-has-video="true">
-          <div className="work-img-wrapper" onClick={() => window.open('https://continental-prototipo.vercel.app/#catalogo', '_blank', 'noopener,noreferrer')} style={{ cursor: 'pointer', height: '28svh', width: '48vw' }}>
+          <div className="work-img-wrapper" onClick={() => window.open('https://continental-prototipo.vercel.app/', '_blank', 'noopener,noreferrer')} style={{ cursor: 'pointer', height: '28svh', width: '48vw' }}>
             <div className="work-img-wrapper-2">
               <img
                 alt="work image"
@@ -620,7 +620,7 @@ export default function SelectedWorkSection() {
             />
           </div>
           <div className="work-info-wrapper" style={{ opacity: 0 }}>
-            <div className="work-title" onClick={() => window.open('https://continental-prototipo.vercel.app/#catalogo', '_blank', 'noopener,noreferrer')} style={{ cursor: 'pointer' }}>
+            <div className="work-title" onClick={() => window.open('https://continental-prototipo.vercel.app/', '_blank', 'noopener,noreferrer')} style={{ cursor: 'pointer' }}>
               <h2 className="title">E-Commerce</h2>
               <span className="bracket-button">[Open]</span>
             </div>
